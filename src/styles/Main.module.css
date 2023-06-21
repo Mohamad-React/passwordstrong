@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f2f2f2; /* Light background color */
+}
+
+.honeinput {
+    padding: 40px;
+    border-radius: 8px; /* Rounded borders */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+    background-color: white; /* White background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.honeinput h1 {
+    padding: 20px;
+    font-style: italic;
+    font-size: 28px; /* Larger font size */
+    color: #333333; /* Dark text color */
+}
+
+.honeinput input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px; /* Rounded input field */
+    border: 1px solid #ccc; /* Light border */
+}
+
+.honeinput p {
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold; /* Bold text */
+    color: #333333; /* Dark text color */
+}
